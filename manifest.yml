@@ -1,5 +1,5 @@
 declared-services:
-  FUNDTRANSFERAPPLICATION-DB:
+  FUNDTRANSFERAPPLICATION1-DB:
     label: cloudantNoSQLDB
     plan: Shared
 applications:
@@ -11,4 +11,4 @@ applications:
   host: FUNDTRANSFERAPPLICATION1
   disk_quota: 1024M
   services:
-  - FUNDTRANSFERAPPLICATION-DB
+  - FUNDTRANSFERAPPLICATION1-DB
