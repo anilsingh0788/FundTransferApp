@@ -1,5 +1,5 @@
 declared-services:
-  FUNDTRANSFERAPPLICATION1-DB:
+  FUNDTRANSFERAPPLICATION2-DB:
     label: cloudantNoSQLDB
     plan: Shared
 applications:
@@ -7,8 +7,8 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: FUNDTRANSFERAPPLICATION1
-  host: FUNDTRANSFERAPPLICATION1
+  name: FundTransferAppAks
+  host: FundTransferAppAks
   disk_quota: 1024M
   services:
-  - FUNDTRANSFERAPPLICATION1-DB
+  - FUNDTRANSFERAPPLICATION2-DB
