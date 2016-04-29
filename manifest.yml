@@ -7,8 +7,8 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: FUNDTRANSFERAPPLICATION_1
-  host: FUNDTRANSFERAPPLICATION_1
+  name: FUNDTRANSFERAPPLICATION
+  host: FUNDTRANSFERAPPLICATION
   disk_quota: 1024M
   services:
-  - FUNDTRANSFERAPPLICATION_1-DB
+  - FUNDTRANSFERAPPLICATION-DB
